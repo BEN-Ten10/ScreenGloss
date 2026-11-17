@@ -1,0 +1,2 @@
+# Optional maintenance tooling; not needed by run.bat.
+ruff==0.17.5

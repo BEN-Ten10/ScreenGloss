@@ -1,0 +1,39 @@
+# Local Python environments and tooling
+/.conda/
+/.venv/
+/venv/
+/.pip-cache/
+/.devtools/
+/tools/.devtools/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# All application data stays local, including dictionaries and OCR weights
+/data/
+
+# Generated checks, screenshots and packages
+/tests/artifacts/
+/build/
+/dist/
+*.egg-info/
+*.zip
+*.7z
+*.log
+
+# Editor and operating system files
+/.vscode/
+/.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

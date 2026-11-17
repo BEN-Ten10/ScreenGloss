@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "path": "data/ocr/cyrillic.onnx",
+      "bytes": 8074092,
+      "sha256": "90f761b4bfcce0c8c561c0cb5c887b0971d3ec01c32164bdf7374a35b0982711"
+    },
+    {
+      "path": "data/ocr/japan.onnx",
+      "bytes": 9753335,
+      "sha256": "e1075a67dba758ecfc7ebc78a10ae61c95ac8fb66a9c86fab5541e33f085cb7a"
+    },
+    {
+      "path": "data/ocr/korean.onnx",
+      "bytes": 24067780,
+      "sha256": "ab151ba9065eccd98f884cf4d927db091be86137276392072edd4f9d43ad7426"
+    },
+    {
+      "path": "data/dictionaries/ecdict/stardict-ecdict-2.4.2/stardict-ecdict-2.4.2.dict",
+      "bytes": 117910792,
+      "sha256": "77eb20ee811e4ca0d03dea98bd0897873442496415fc97ca4abc137aea5e8db0"
+    },
+    {
+      "path": "data/dictionaries/ecdict/stardict-ecdict-2.4.2/stardict-ecdict-2.4.2.idx",
+      "bytes": 82058819,
+      "sha256": "ee3523e29b5c2ec92d1a3f91dd29d6b042c14abb9a73e0a164f86f195377b39a"
+    },
+    {
+      "path": "data/dictionaries/ecdict/stardict-ecdict-2.4.2/stardict-ecdict-2.4.2.ifo",
+      "bytes": 171,
+      "sha256": "b294002078958d6fe7830cbf8c7a07e9392be19a62f045e8c75053c6ef6dad68"
+    },
+    {
+      "path": "data/dictionaries/jmdict/jmdict.db",
+      "bytes": 81367040,
+      "sha256": "791ed1e70847c769e5031dbd47b2edc8470c64b3e9b781519614e863f683ba3f"
+    }
+  ]
+}

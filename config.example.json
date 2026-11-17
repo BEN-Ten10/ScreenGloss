@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "api": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-chat",
+    "api_key": "",
+    "timeout_s": 60
+  },
+  "languages": {
+    "source": "en",
+    "target": "zh"
+  },
+  "hotkeys": {
+    "screen_translate": "alt+s",
+    "dictionary": "alt+d",
+    "translate_clipboard": "alt+t",
+    "hover_toggle": "alt+h"
+  },
+  "ocr": {
+    "min_score": 0.5,
+    "max_side": 1600,
+    "lang": "ch",
+    "threads": 4,
+    "rotated": false,
+    "memory_arena": true
+  },
+  "dictionary": {
+    "enabled": true,
+    "mode": "offline_first",
+    "context_enabled": true,
+    "capture_width": 900,
+    "capture_height": 120
+  },
+  "screen": {
+    "freeze_selection": true
+  },
+  "tts": {
+    "engine": "sapi"
+  },
+  "hover": {
+    "enabled": false,
+    "delay_ms": 700
+  },
+  "system": {
+    "desktop_shortcut": false,
+    "autostart": false
+  },
+  "ui": {
+    "popup_width": 520,
+    "overlay_alpha": 245,
+    "font_pt": 11,
+    "language": "en"
+  },
+  "cache": {
+    "max_mb": 100
+  },
+  "diagnostics": {
+    "capture_images": false
+  }
+}
